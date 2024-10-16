@@ -1,0 +1,1 @@
+This calculator was written solely for learning how to work with Git and GitHub.

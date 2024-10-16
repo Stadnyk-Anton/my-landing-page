@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+    <script src="myScript.js"></script>
+  </head>
+  <body>
+    <div class="conteiner">
+      <div id="sum-screen">
+        <div id="formula">
+          <div id="first-num">0</div>
+          <div id="math-symbol"></div>
+          <div id="second-num"></div>
+        </div>
+        <div id="sum"></div>
+      </div>
+      <table>
+        <tr>
+          <td onclick="precent()" class="dark">%</td>
+          <td class="dark">CE</td>
+          <td onclick="clean()" class="dark">C</td>
+          <td onclick="del()" class="dark">⌫</td>
+        </tr>
+        <tr>
+          <td class="dark">¹/x</td>
+          <td class="dark">x²</td>
+          <td class="dark">²√x</td>
+          <td onclick="changeMathSymb('÷')" class="dark">÷</td>
+        </tr>
+        <tr>
+          <td onclick="changeNum('7')" class="light">7</td>
+          <td onclick="changeNum('8')" class="light">8</td>
+          <td onclick="changeNum('9')" class="light">9</td>
+          <td onclick="changeMathSymb('x')" class="dark">X</td>
+        </tr>
+        <tr>
+          <td onclick="changeNum('4')" class="light">4</td>
+          <td onclick="changeNum('5')" class="light">5</td>
+          <td onclick="changeNum('6')" class="light">6</td>
+          <td onclick="changeMathSymb('-')" class="dark">-</td>
+        </tr>
+        <tr>
+          <td onclick="changeNum('1')" id="one" class="light">1</td>
+          <td onclick="changeNum('2')" class="light">2</td>
+          <td onclick="changeNum('3')" class="light">3</td>
+          <td onclick="changeMathSymb('+')" class="dark">+</td>
+        </tr>
+        <tr>
+          <td class="light">+/-</td>
+          <td onclick="changeNum('0')" id="zero" class="light">0</td>
+          <td onclick="changeNum('.')" class="light">.</td>
+          <td onclick="equally()" id="equally" class="dark">=</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
